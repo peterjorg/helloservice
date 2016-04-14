@@ -1,0 +1,22 @@
+{
+  "name": "helloservice",
+  "version": "1.0.0",
+  "description": "hello service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjorg/helloservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjorg/helloservice/issues"
+  },
+  "homepage": "https://github.com/peterjorg/helloservice#readme",
+  "dependencies": {
+    "hapi": "^13.3.0"
+  }
+}
