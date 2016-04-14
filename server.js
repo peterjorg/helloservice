@@ -1,6 +1,7 @@
 'use strict';
 
 var Hapi = require('hapi');
+var os = require('os');
 
 var server = new Hapi.Server();
 server.connection({
@@ -12,7 +13,7 @@ server.route({
     method: 'GET',
     path:'/hello',
     handler: function (request, reply) {
-        return reply('Hello World');
+        return reply('Hello from: ' + os.hostname());
     }
 });
 
